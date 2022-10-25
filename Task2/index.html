@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Registration page </title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+</head>
+<header>
+    <h2>REGISTRATION FORM:</h2>
+</header>
+
+<body>
+    <form action="Success_register.html">
+        <div class="fname">
+            <label for="fname">First Name</label>
+            <input type="text" name="fname" id="fname" required>
+        </div>
+        <br>
+        <div class="lname">
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname" id="lname" required>
+        </div>
+        <br>
+        <div>
+            <label for="pnumber">Phone Number</label>
+            <input type="number" name="pnumber" required>
+        </div>
+        <br>
+        <div class="lname">
+            <label for="email">
+                Email
+            </label>
+            <input type="email" name="email" id="" required>
+        </div>
+        <br>
+        <div class="gender">
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="Female">Female</option>
+                <option value="Male">Male </option>
+                <option value="other">other </option>
+            </select>
+        </div>
+        <br>
+        <div class="birthday">
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday" required>
+        </div>
+        <br>
+        <div class="color">
+            <label for="favorite color">Favorite color:</label>
+            <input type="color" id="color" name="color" required>
+        </div>
+        <br>
+
+        <div class="submit">
+            <button type="submit">SUBMIT</button>
+        </div>
+
+
+    </form>
+    <br>
+    <h3>
+        <span class="lgn">Existing User? <a href="login.html">Log in</a></span>
+    </h3>
+</body>
+
+</html>
